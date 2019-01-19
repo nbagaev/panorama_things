@@ -32,14 +32,8 @@ insert
 3. Make changes in `index.js`:
 
 after
-
-`function switchScene(scene) {`  
-`  stopAutorotate();`  
-`  scene.view.setParameters(scene.data.initialViewParameters);`  
-`  scene.scene.switchTo();`  
-`  startAutorotate();`  
-`  updateSceneName(scene);`  
-`  updateSceneList(scene);`  
+ 
+`updateSceneList(scene);`  
 
   insert
 
