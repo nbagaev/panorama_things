@@ -4,12 +4,9 @@ Marzipano Player does not support background sound.
 Here is a solution.  
 Just do:
 
-1. Copy files `sound_off.png` and `sound_on.png` to `img` folder, `playsound.js` and `playsound.css` to panorama folder
-
-2. Change `index.html`:
-
-after
-
+1. Copy files `sound_off.png` and `sound_on.png` to `img` folder, `playsound.js` and `playsound.css` to panorama folder  
+2. Change `index.html`:  
+after  
 `<link rel="stylesheet" href="style.css">`
 
 insert
