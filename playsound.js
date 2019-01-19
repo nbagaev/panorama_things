@@ -1,6 +1,5 @@
 'use strict';
 
-
 var playBGSoundToggleElement = document.querySelector('#playBGSoundToggle');
 var bgSound = document.querySelector('#bgSound');
 bgSound.volume = 0.5;
@@ -46,6 +45,3 @@ function playBGSoundToggle() {
 		bgSound.pause();
     }
 }
-
-
- 
