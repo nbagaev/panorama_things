@@ -1,7 +1,6 @@
 # Tools and scripts for panorama
 ## Background sound for Marzipano Player
-Marzipano Player does not support background sound. Playsound.js allows this.
-Just do:
+Marzipano Player does not support background sound.  Playsound.js allows this.  Just do:
 
 1. Copy files `sound_off.png` and `sound_on.png` in `img` folder, `playsound.js` and `playsound.css` in panorama folder
 
@@ -45,5 +44,4 @@ after
   `playBGSound(scene.data.id);`
 
 4. Copy sound files into panorama folder and
-
 name these exactly like panorama ID from `data.js`, as example `0-bedroom.mp3`, `1-livingroom.mp3`
