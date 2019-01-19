@@ -32,19 +32,13 @@ paste
 
 after
 
-`function switchScene(scene) {`
-
-`  stopAutorotate();`
-
-`  scene.view.setParameters(scene.data.initialViewParameters);`
-
-`  scene.scene.switchTo();`
-
-`  startAutorotate();`
-
-`  updateSceneName(scene);`
-
-`  updateSceneList(scene);`
+`function switchScene(scene) {`  
+`  stopAutorotate();`  
+`  scene.view.setParameters(scene.data.initialViewParameters);`  
+`  scene.scene.switchTo();`  
+`  startAutorotate();`  
+`  updateSceneName(scene);`  
+`  updateSceneList(scene);`  
 
   paste
 
