@@ -11,7 +11,7 @@ after
 
 `<link rel="stylesheet" href="style.css">`
 
-paste
+insert
 
 `<link rel="stylesheet" href="playsound.css">`
 
@@ -19,7 +19,7 @@ after
 
 `<div id="pano"></div>`
 
-paste
+insert
 
 `<audio id="bgSound"></audio>`  
 `<a href="#" id="playBGSoundToggle">`  
@@ -40,7 +40,7 @@ after
 `  updateSceneName(scene);`  
 `  updateSceneList(scene);`  
 
-  paste
+  insert
 
   `playBGSound(scene.data.id);`
 
