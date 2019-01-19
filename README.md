@@ -5,6 +5,7 @@ Here is a solution.
 Just do:
 
 1. Copy files `sound_off.png` and `sound_on.png` to `img` folder, `playsound.js` and `playsound.css` to panorama folder  
+
 2. Change `index.html`:  
 after  
 `<link rel="stylesheet" href="style.css">`  
@@ -19,10 +20,12 @@ insert
 `  <img class="icon on" src="img/sound_on.png">`  
 `</a>`  
 `<script src="playsound.js"></script>`  
+
 3. Change `index.js`:  
 after   
 `updateSceneList(scene);`  
 insert  
 `playBGSound(scene.data.id);`  
+
 4. Copy sound files to panorama folder and
 name these exactly like panorama ID from `data.js`, as example `0-bedroom.mp3`, `1-livingroom.mp3` ..
