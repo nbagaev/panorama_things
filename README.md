@@ -24,13 +24,9 @@ paste
 `<audio id="bgSound"></audio>`
 
 `<a href="#" id="playBGSoundToggle">`
-
 `  <img class="icon off" src="img/sound_off.png">`
-
 `  <img class="icon on" src="img/sound_on.png">`
-
 `</a>`
-
 `<script src="playsound.js"></script>`
 
 3. Insert the following line in `index.js`:
