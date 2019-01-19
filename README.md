@@ -1,5 +1,5 @@
 # Tools and scripts for panorama
-## Background sound for Marzipano Player
+## Background sound for Marzipano player
 Marzipano Player does not support background sound.  
 Here is a solution.  
 Just do:
