@@ -34,28 +34,28 @@ paste
 
 `<script src="playsound.js"></script>`
 
-3.insert the following lines in `index.html`:
+3. insert the following lines in `index.html`:
 
 after
 
-`function switchScene(scene) {
+`function switchScene(scene) {`
 
-  stopAutorotate();
+`  stopAutorotate();`
 
-  scene.view.setParameters(scene.data.initialViewParameters);
+`  scene.view.setParameters(scene.data.initialViewParameters);`
 
-  scene.scene.switchTo();
+`  scene.scene.switchTo();`
 
-  startAutorotate();
+`  startAutorotate();`
 
-  updateSceneName(scene);
+`  updateSceneName(scene);`
 
-  updateSceneList(scene);`
+`  updateSceneList(scene);`
 
   paste
 
   `playBGSound(scene.data.id);`
 
-4.Copy sound files into panorama folder
+4. Copy sound files into panorama folder
 
 name the sound files exact like panorama ID from `data.js` like `0-bedroom`, `1-livingroom`
