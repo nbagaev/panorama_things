@@ -6,7 +6,7 @@ Just do:
 
 1. Copy files `sound_off.png` and `sound_on.png` to `img` folder, `playsound.js` and `playsound.css` to panorama folder
 
-2. Make changes in `index.html`:
+2. Change `index.html`:
 
 after
 
@@ -29,7 +29,7 @@ insert
 `</a>`  
 `<script src="playsound.js"></script>`
 
-3. Make changes in `index.js`:
+3. Change `index.js`:
 
 after
  
