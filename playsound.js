@@ -45,3 +45,4 @@ function playBGSoundToggle() {
 		bgSound.pause();
     }
 }
+//test
