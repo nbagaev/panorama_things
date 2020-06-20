@@ -28,4 +28,4 @@ insert
 `playBGSound(scene.data.id);`  
 
 4. Copy sound files to panorama folder and
-name these exactly like panorama ID from `data.js`, as example `0-bedroom.mp3`, `1-livingroom.mp3` ..
+name these exactly like panorama ID from `data.js`, as example `0-bedroom.mp3`, `1-livingroom.mp3` ...
